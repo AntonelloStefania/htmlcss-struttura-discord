@@ -20,7 +20,7 @@ header.h-container{
 
 .first-section{
     background-color: blue;
-    height:350px;
+    height:400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +28,23 @@ header.h-container{
 .second-section{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding:50px 30px;
-    height:350px;
+    height:400px;
 }
 
 .third-section{
     display: flex;
     justify-content: center;
-    height:350px;
+    align-items: center;
+    height:400px;
     padding: 30px;
     background-color: rgb(199, 197, 197);
 }
 .fourth-section{
     display: flex;
     justify-content: center;
-    height:500px;
+    height:700px;
     padding: 30px;
     background-color: rgb(199, 197, 197);
 }
@@ -50,7 +52,7 @@ header.h-container{
 .fifth-section{
     display: flex;
     justify-content: center;
-    height: 350px;
+    height: 400px;
     background-color: rgb(32, 32, 32);
     padding: 10px 30px;
 }
@@ -66,7 +68,7 @@ header.h-container{
 /* UTILITIES */
 header .row{
     height: 30px;
-    width: 70%;
+    width: 60%;
     display: flex;
     background-color: rgb(255, 166, 0);
     justify-content: space-between;
@@ -89,21 +91,21 @@ header .row{
 }
 
 .row-first-section{
-    height: 250px;
+    height: 350px;
     background-color: rgb(255, 108, 211);
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     border: 1px dashed black;
 }
 .second-row{
-    height:250px;
-    width: 70%;
+    height:350px;
+    width: 60%;
     display: flex;
 }
 .third-row{
-    height:250px;
-    width: 70%;
+    height:350px;
+    width: 60%;
     display: flex;
 }
 
@@ -122,7 +124,7 @@ header .row{
 }
 
 .fourth-row{
-    width: 70%;
+    width: 60%;
 }
 
 .fourth-col{
@@ -132,7 +134,7 @@ header .row{
 }
 
 .fifth-row{
-    width: 70%;
+    width: 60%;
     height: 100%;
     display: flex;
     border: 1px dashed black;
@@ -153,7 +155,7 @@ header .row{
 }
 
 .footer-row{
-    width: 70%;
+    width: 60%;
     height: 50px;
     background-color:aquamarine ;
     display: flex;
